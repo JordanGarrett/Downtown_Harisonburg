@@ -1,0 +1,166 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+html {
+    -webkit-box-sizing-box: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    display: grid;
+    padding: 0px;
+    background-color: #460084;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: minmax(100px, auto);
+    justify-content: space-evenly;
+}
+
+.self {
+    align-self: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+li {
+    padding-right: 19px;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer {
+    padding: 3%;
+    background-color: #460084;
+    height: 20%;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-variant: small-caps;
+}
+
+.aboutitem {
+    margin-left: 0%;
+}
+
+.Learn-More {
+    color: black;
+}
+
+.caption {
+    display: block;
+}
+
+p {
+    font: 1.0em "Times New Roman", georgia;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h1 {
+    font: bold 3em "Times New Roman", georgia;
+    color: black;
+    font-variant: small-caps;
+    margin: 0 0 0 5%;
+    text-align: center;
+}
+
+h2 {
+    font: 1.3em "Times New Roman", georgia;
+    font-variant: small-caps;
+    color: black;
+    text-align: center;
+}
+
+h4 {
+    font: bold 8em "Times New Roman", georgia;
+    text-align: center;
+    color: white;
+}
+
+h5 {
+    text-align: center;
+}
+
+h6 {
+    font: 1em "Times New Roman", georgia;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    font: 1.5em "Times New Roman", georgia;
+}
+
+
+.donate {
+    color: white;
+}
+
+.LVRM {
+    color: #f65;
+}
+
+.LVRM:hover {
+    text-decoration: underline;
+}
+
+.donatebtn {
+    border-radius: 2px;
+    font-variant: small-caps;
+    color: white;
+    font-family: "Times New Roman", georgia;
+    font-size: 20px;
+    background: #1A253A;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    opacity: 0.80;
+    margin: 5% 20% 0 43.25%;
+}
+
+.donatebtn:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.social {
+    width: 100px;
+    height: 100px;
+    place-items: center;
+}
+
+.footerfollow {
+    font: bold 1.5em "Times New Roman", georgia;
+    text-align: center;
+}
+
+.footerlogo {
+    right: 0;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 -3% 45.9%;
+}
