@@ -52,7 +52,6 @@ a:hover {
 }
 
 footer {
-    padding: ;
     background-color: #460084;
     height: 20%;
 }
@@ -156,6 +155,8 @@ h3 {
 .footerfollow {
     font: bold 1.5em "Times New Roman", georgia;
     text-align: center;
+    padding-bottom: 0px;
+  padding-top: 30px;
 }
 
 .footerlogo {
